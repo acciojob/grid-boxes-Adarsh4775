@@ -1,1 +1,66 @@
 /*  your css code here. If applicable */
+#grid{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-template-rows:repeat(5,1fr);
+}
+#element-1{
+	grid-column: 1 / 5;
+	background-color:green;
+	border-bottom:4px solid  white;
+	padding:25px;
+}
+#element-2{
+	grid-row:2/6;
+	background-color:green;
+	border-right:4px solid  white;
+	border-top:4px solid  white;
+}
+#element-3{
+	grid-row: 2 / 3;
+	background-color:green;
+	border:4px solid  white;
+}
+#element-4{
+	grid-column: 3 / 5;
+	background-color:green;
+	border:4px solid  white;
+}
+#element-5{
+	grid-column: 2 / 4;
+	background-color:green;
+	border:4px solid  white;
+}
+#element-6{
+	grid-column: 4 / 5;
+	background-color:green;
+	border:4px solid  white;
+}
+#element-7{
+	grid-column: 2 / 3;
+	background-color:green;
+	border:4px solid  white;
+}
+#element-8{
+	grid-column: 3 / 4;
+	background-color:green;
+	border:4px solid  white;
+}
+#element-9{
+	grid-column: 4 / 5;
+	background-color:green;
+	border:4px solid white;
+}
+#element-10{
+	grid-column: 2 / 5;
+	background-color:green;
+	border-top:4px solid white;
+	border-left:4px solid white;
+}
+.grid-item{
+	color:white;
+	font-size:25px;
+	
+}
+
+
