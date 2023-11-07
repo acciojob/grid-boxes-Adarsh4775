@@ -2,7 +2,7 @@
 #grid{
 	display:grid;
 	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
-	grid-template-rows:124px 124px 124px 124px ;
+	grid-template-rows:124px 124px 124px 124px 36px 36px 32px 20px ;
 	grid-gap: 10px 10px;
 }
 #element-1{
